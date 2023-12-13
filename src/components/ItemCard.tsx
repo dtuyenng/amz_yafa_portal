@@ -12,12 +12,13 @@ interface ItemList {
 function ItemCard({ itemList }: ItemList) {
   if (itemList.length === 0) {
     return (
-      <div className="ItemCard">No result found. Re-enter search input</div>
+      <div className="noResult">No result found. Re-enter search input</div>
     );
   }
   //// add a timer to slightly slow the display one by one
   return (
-    <>
+    <div className="content">
+      <div className="resultCounter">Results: {itemList.length}</div>
       {itemList.map((item) => (
         <div className="ItemCard" key={item.itemASIN}>
           <div className="gallery">
@@ -54,7 +55,7 @@ function ItemCard({ itemList }: ItemList) {
           </div>
         </div>
       ))}
-    </>
+    </div>
   );
 }
 

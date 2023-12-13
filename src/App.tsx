@@ -57,8 +57,11 @@ function App() {
 
   return (
     <div className="wrapper">
-      <div className="title">Amazon Product Portal (A.P.P)</div>
-      <SearchBar handleChange={handleChange} />
+      <div className="header">
+        <div className="title">Amazon Product Portal (A.P.P)</div>
+        <SearchBar handleChange={handleChange} />{" "}
+      </div>
+
       <ItemCard itemList={filteredList} />
     </div>
   );
