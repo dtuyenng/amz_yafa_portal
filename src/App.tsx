@@ -3,6 +3,8 @@ import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
 
 import "./App.css";
+// review codes about search function on keyboard press,
+// searchinput clearing, delay class changing ..
 
 const itemList = [
   {
@@ -34,25 +36,36 @@ const itemList = [
   },
 ];
 
-function App() {
-  const [curItemList, setCurItemlist] = useState(itemList);
-  const [curSearchInput, setSearchInput] = useState("");
+interface Item {
+  itemNumber: string;
+  itemASIN: string;
+  itemUPC: string;
+  itemName: string;
+}
 
-  const filteredList = curSearchInput
-    ? curItemList.filter(
-        (item) =>
-          item.itemNumber
-            .toLowerCase()
-            .includes(curSearchInput.toLowerCase()) ||
-          item.itemName.toLowerCase().includes(curSearchInput.toLowerCase()) ||
-          item.itemASIN.toLowerCase().includes(curSearchInput.toLowerCase()) ||
-          item.itemUPC.toLowerCase().includes(curSearchInput.toLowerCase())
-      )
-    : [];
+function App() {
+  const [curItemList, setCurItemList] = useState<Item[]>([]);
+  const [curSearchInput, setSearchInput] = useState("");
 
   function handleChange(event: any) {
     console.log(event.target.value);
     setSearchInput(event.target.value);
+  }
+
+  function handleClick() {
+    const filteredList = itemList.filter(
+      (item) =>
+        item.itemNumber.toLowerCase().includes(curSearchInput.toLowerCase()) ||
+        item.itemName.toLowerCase().includes(curSearchInput.toLowerCase()) ||
+        item.itemASIN.toLowerCase().includes(curSearchInput.toLowerCase()) ||
+        item.itemUPC.toLowerCase().includes(curSearchInput.toLowerCase())
+    );
+    setCurItemList(filteredList);
+  }
+
+  function handleClear() {
+    setSearchInput("");
+    setCurItemList([]);
   }
 
   useEffect(() => {
@@ -64,18 +77,23 @@ function App() {
       setTimeout(() => {
         card.classList.add("fade");
         // card.style.visibility = "visible";
-      }, index * 300); // Adjust the delay between adding classes if needed
+      }, index * 200); // Adjust the delay between adding classes if needed
     });
-  }, [filteredList]);
+  }, [curItemList]);
 
   return (
     <div className="wrapper">
       <div className="header">
         <div className="title">Amazon Product Portal (A.P.P)</div>
-        <SearchBar handleChange={handleChange} />{" "}
+        <SearchBar
+          handleChange={handleChange}
+          handleClick={handleClick}
+          handleClear={handleClear}
+          searchInput={curSearchInput}
+        />
       </div>
 
-      <ItemCard itemList={filteredList} />
+      <ItemCard itemList={curItemList} />
     </div>
   );
 }
