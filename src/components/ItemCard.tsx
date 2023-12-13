@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from "react";
+
 interface Item {
   itemNumber: string;
   itemASIN: string;
@@ -15,10 +17,10 @@ function ItemCard({ itemList }: ItemList) {
       <div className="noResult">No result found. Re-enter search input</div>
     );
   }
-  //// add a timer to slightly slow the display one by one
+
   return (
     <div className="content">
-      <div className="resultCounter">Results: {itemList.length}</div>
+      <div className="resultCounter fade">Results: {itemList.length}</div>
       {itemList.map((item) => (
         <div className="ItemCard" key={item.itemASIN}>
           <div className="gallery">

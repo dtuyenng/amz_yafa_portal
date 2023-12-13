@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
 
@@ -54,6 +54,19 @@ function App() {
     console.log(event.target.value);
     setSearchInput(event.target.value);
   }
+
+  useEffect(() => {
+    const itemCards = document.querySelectorAll<HTMLElement>(".ItemCard"); // Explicitly specify the type as HTMLElement
+    console.log(" go" + itemCards);
+    // Assuming you want to apply the class to each ItemCard sequentially
+
+    itemCards.forEach((card, index) => {
+      setTimeout(() => {
+        card.classList.add("fade");
+        // card.style.visibility = "visible";
+      }, index * 500); // Adjust the delay between adding classes if needed
+    });
+  }, [filteredList]);
 
   return (
     <div className="wrapper">
