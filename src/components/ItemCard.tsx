@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { Fragment, useEffect, useRef, useState } from "react";
 
 interface Item {
   itemNumber: string;
@@ -14,7 +14,12 @@ interface ItemList {
 function ItemCard({ itemList }: ItemList) {
   if (itemList.length === 0) {
     return (
-      <div className="noResult">No result found. Re-enter search input</div>
+      <>
+        <div className="content">
+          <div className="resultCounter fade">Results: 0</div>
+          <div className="noResult">No result found. Re-enter search input</div>
+        </div>
+      </>
     );
   }
 

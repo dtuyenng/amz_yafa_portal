@@ -6,7 +6,7 @@ import "./App.css";
 
 const itemList = [
   {
-    itemNumber: "CK71966",
+    itemNumber: "CK71000:CK71966",
     itemASIN: "B09X746FN1",
     itemUPC: "080333719664",
     itemName:
@@ -64,7 +64,7 @@ function App() {
       setTimeout(() => {
         card.classList.add("fade");
         // card.style.visibility = "visible";
-      }, index * 500); // Adjust the delay between adding classes if needed
+      }, index * 300); // Adjust the delay between adding classes if needed
     });
   }, [filteredList]);
 
