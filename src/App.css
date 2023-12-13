@@ -27,11 +27,13 @@ body {
 
 #SearchBar > input {
     margin-left: 1rem;
+    width: 20rem;
+    padding-left: 0.5rem;
 }
 
-#ItemCard {
-    width: 100%;
-    height: 90%;
+.ItemCard {
+    width: 600px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -71,6 +73,25 @@ body {
 
 .itemInfo {
     padding: 1rem 2rem;
+}
+
+.itemInfoWrapper {
+    font-weight: bold;
+}
+
+.itemLabel {
+    font-weight: bold;
+}
+
+.itemNumber {
+    color: red;
+}
+
+.itemAsin {
+    color: green;
+}
+.itemUpc {
+    color: blue;
 }
 
 @media screen and (max-width: 600px) {

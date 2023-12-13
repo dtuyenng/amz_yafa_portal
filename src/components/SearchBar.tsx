@@ -1,11 +1,16 @@
 import React from "react";
 
-function SearchBar() {
+interface Props {
+  handleChange: (value: any) => void;
+}
+
+function SearchBar({ handleChange }: Props) {
   return (
     <div id="SearchBar">
-      <input placeholder="Item#"></input>
-      <input placeholder="ASIN"></input>
-      <input placeholder="SKU"></input>
+      <input
+        placeholder="Item#, Name, Desc, ASIN, SKU, UPC"
+        onChange={handleChange}
+      ></input>
     </div>
   );
 }

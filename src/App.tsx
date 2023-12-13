@@ -21,7 +21,7 @@ const itemList = [
   },
   {
     itemNumber: "CK71436",
-    itemASIN: "B08XZTQB07HB62Y7WG1Z",
+    itemASIN: "B07HB62Y7W",
     itemUPC: "080333714362",
     itemName:
       "CONKLIN All American Fountain Pen, Old Glory Special Edition, OmniFlex Nib",
@@ -35,14 +35,31 @@ const itemList = [
 ];
 
 function App() {
-  console.log(itemList);
+  const [curItemList, setCurItemlist] = useState(itemList);
+  const [curSearchInput, setSearchInput] = useState("");
+
+  const filteredList = curSearchInput
+    ? curItemList.filter(
+        (item) =>
+          item.itemNumber
+            .toLowerCase()
+            .includes(curSearchInput.toLowerCase()) ||
+          item.itemName.toLowerCase().includes(curSearchInput.toLowerCase()) ||
+          item.itemASIN.toLowerCase().includes(curSearchInput.toLowerCase()) ||
+          item.itemUPC.toLowerCase().includes(curSearchInput.toLowerCase())
+      )
+    : [];
+
+  function handleChange(event: any) {
+    console.log(event.target.value);
+    setSearchInput(event.target.value);
+  }
+
   return (
     <div className="wrapper">
-      <div className="title">Amazon Product Portal</div>
-      <SearchBar />
-      <ItemCard />
-      <ItemCard />
-      <ItemCard />
+      <div className="title">Amazon Product Portal (A.P.P)</div>
+      <SearchBar handleChange={handleChange} />
+      <ItemCard itemList={filteredList} />
     </div>
   );
 }
