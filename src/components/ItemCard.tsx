@@ -1,5 +1,3 @@
-import { Fragment, useEffect, useRef, useState } from "react";
-
 interface Item {
   itemNumber: string;
   itemASIN: string;

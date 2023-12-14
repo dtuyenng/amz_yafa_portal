@@ -1,5 +1,3 @@
-import React from "react";
-
 interface Props {
   handleChange: (value: any) => void;
   handleClick: () => void;
