@@ -28,8 +28,8 @@ function ItemCard({ itemList }: ItemList) {
   return (
     <div className="content">
       <div className="resultCounter fade">
-        Results: {itemList.length}
-        {itemList.length > 50 && <span> - (Only displaying 50)</span>}
+        <div>Results: {itemList.length}</div>
+        <div>{itemList.length > 50 && <span>(Only displaying 50)</span>}</div>
       </div>
       {limitedItemList.map((item) => (
         <div className="ItemCard" key={item.itemASIN}>
@@ -53,14 +53,12 @@ function ItemCard({ itemList }: ItemList) {
             />
           </div>
           <div className="itemInfo">
+            <div className="itemName">{item.itemName}</div>
             <div className="itemInfoWrapper">
               <div className="itemLabel">Item#:</div>
               <div className="itemNumber"> {item.itemNumber}</div>
               <div className="itemLabel">ASIN:</div>
               <div className="itemAsin">{item.itemASIN}</div>
-            </div>
-            <div className="itemName">
-              <p>{item.itemName}</p>
             </div>
           </div>
         </div>

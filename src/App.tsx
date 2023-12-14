@@ -63,7 +63,15 @@ function App() {
   return (
     <div className="wrapper">
       <div className="header">
-        <div className="title">Amazon Product Portal (A.P.P)</div>
+        <div>
+          <img
+            className="logo"
+            src="https://cdn11.bigcommerce.com/s-nyvkica9hs/images/stencil/original/yafabrands_new_logo_home_1626906690__49967.original.png"
+            alt=""
+          />
+          <div className="title">Amazon Product Portal (A.P.P)</div>
+        </div>
+
         <SearchBar
           handleChange={handleChange}
           handleClick={handleClick}
