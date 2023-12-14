@@ -1,45 +1,13 @@
 import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
+import itemList from "./itemList";
 
 import "./App.css";
-// review codes about search function on keyboard press,
-// searchinput clearing, delay class changing ..
-
-const itemList = [
-  {
-    itemNumber: "CK71000:CK71966",
-    itemASIN: "B09X746FN1",
-    itemUPC: "080333719664",
-    itemName:
-      "CONKLIN All American Special Eye Dropper Edition Fountain Pen (Demo Orange) - Omniflex Nib",
-  },
-  {
-    itemNumber: "CK76165",
-    itemASIN: "B08XZTQG1Z",
-    itemUPC: "080333761656",
-    itemName:
-      "CONKLIN All American Ballpoint Pen (Turquoise Serenity) - Medium Point",
-  },
-  {
-    itemNumber: "CK71436",
-    itemASIN: "B07HB62Y7W",
-    itemUPC: "080333714362",
-    itemName:
-      "CONKLIN All American Fountain Pen, Old Glory Special Edition, OmniFlex Nib",
-  },
-  {
-    itemNumber: "CK72003",
-    itemASIN: "B0C4RT5BCZ",
-    itemUPC: "080333720035",
-    itemName: "CONKLIN Duragraph Metal Fountain Pen PVD Gold - M",
-  },
-];
 
 interface Item {
   itemNumber: string;
   itemASIN: string;
-  itemUPC: string;
   itemName: string;
 }
 
@@ -53,13 +21,24 @@ function App() {
   }
 
   function handleClick() {
-    const filteredList = itemList.filter(
-      (item) =>
-        item.itemNumber.toLowerCase().includes(curSearchInput.toLowerCase()) ||
-        item.itemName.toLowerCase().includes(curSearchInput.toLowerCase()) ||
-        item.itemASIN.toLowerCase().includes(curSearchInput.toLowerCase()) ||
-        item.itemUPC.toLowerCase().includes(curSearchInput.toLowerCase())
-    );
+    if (curSearchInput === "") return;
+    const searchTerms = curSearchInput
+      .toLowerCase()
+      .split(" ")
+      .filter((term) => term.trim() !== "");
+
+    const filteredList = itemList.filter((item) => {
+      const itemAttributes = [
+        item.itemNumber.toLowerCase(),
+        item.itemName.toLowerCase(),
+        item.itemASIN.toLowerCase(),
+      ];
+
+      return searchTerms.every((searchTerm) =>
+        itemAttributes.some((attribute) => attribute.includes(searchTerm))
+      );
+    });
+
     setCurItemList(filteredList);
   }
 

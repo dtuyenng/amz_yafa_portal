@@ -3,7 +3,6 @@ import { Fragment, useEffect, useRef, useState } from "react";
 interface Item {
   itemNumber: string;
   itemASIN: string;
-  itemUPC: string;
   itemName: string;
 }
 
@@ -22,11 +21,19 @@ function ItemCard({ itemList }: ItemList) {
       </>
     );
   }
+  if (itemList.length > 50) {
+    console.log("more than 50");
+  }
+
+  const limitedItemList = itemList.slice(0, 50); // Limiting to the first 5 items
 
   return (
     <div className="content">
-      <div className="resultCounter fade">Results: {itemList.length}</div>
-      {itemList.map((item) => (
+      <div className="resultCounter fade">
+        Results: {itemList.length}
+        {itemList.length > 50 && <span> - (Only displaying 50)</span>}
+      </div>
+      {limitedItemList.map((item) => (
         <div className="ItemCard" key={item.itemASIN}>
           <div className="gallery">
             <img
@@ -53,8 +60,6 @@ function ItemCard({ itemList }: ItemList) {
               <div className="itemNumber"> {item.itemNumber}</div>
               <div className="itemLabel">ASIN:</div>
               <div className="itemAsin">{item.itemASIN}</div>
-              <div className="itemLabel">UPC:</div>
-              <div className="itemUpc">{item.itemUPC}</div>
             </div>
             <div className="itemName">
               <p>{item.itemName}</p>
