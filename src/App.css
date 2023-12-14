@@ -8,7 +8,8 @@ body {
 .wrapper {
   margin-top: 20px;
   display: flex;
-  width: 90vw;
+  width: 100vw;
+  height: 100%;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
   box-shadow: 1px 1px 5px rgb(72, 72, 72);
@@ -55,20 +56,18 @@ body {
 }
 
 #SearchBar > input {
-  width: 90%;
+  width: 95%;
   height: 1.5rem;
   font-size: 0.8rem;
   border-radius: 5px;
 }
 
-#SearchBar > button {
+.buttonWrapper {
   align-self: flex-end;
-  background-color: rgb(249, 249, 249);
-  width: 3rem;
-  margin-right: 3rem;
-  border-radius: 5px;
-  border: 2px solid white;
-  transition: 0.2s;
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 0.2rem;
+  margin-right: 20px;
 }
 
 #SearchBar > button:hover {

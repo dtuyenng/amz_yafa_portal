@@ -24,8 +24,10 @@ function SearchBar({
         value={searchInput}
         onKeyDown={handleKeyPress}
       ></input>
-      {/* <button onClick={handleClick}>O</button> */}
-      <button onClick={handleClear}>Clear</button>
+      <div className="buttonWrapper">
+        <button onClick={handleClick}>Search</button>
+        <button onClick={handleClear}>Clear</button>
+      </div>
     </div>
   );
 }
