@@ -31,11 +31,13 @@ body {
 }
 
 .title {
-  font-size: 0.rem;
+  font-size: 1.2rem;
+  margin-right: 220px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
+  color: rgb(171, 1, 1);
   font-family: Open Sans, sans-serif;
-  display: none;
+
+  display: block;
 }
 
 .header > div:nth-child(1) {
@@ -53,7 +55,6 @@ body {
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
-
 }
 
 #SearchBar > input {
@@ -74,8 +75,6 @@ body {
 #SearchBar > button:hover {
   background-color: rgb(181, 181, 181);
 }
-
-
 
 .noResult {
   display: flex;
@@ -117,7 +116,7 @@ body {
   display: flex;
   margin-bottom: 0.5rem;
   flex-direction: row;
-  justify-content:flex-start;
+  justify-content: flex-start;
   align-items: flex-start;
   width: 90%;
   height: 100px;
@@ -168,7 +167,6 @@ body {
   justify-content: flex-start;
 }
 
-
 .itemLabel {
   font-weight: bold;
 
@@ -193,7 +191,6 @@ body {
 .itemUpc {
   color: blue;
 }
-
 
 @keyframes slideInFromLeft {
   0% {
