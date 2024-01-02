@@ -23,13 +23,19 @@ function ItemCard({ itemList }: ItemList) {
     console.log("more than 50");
   }
 
-  const limitedItemList = itemList.slice(0, 50); // Limiting to the first 5 items
+  const limitedItemList = itemList.slice(0, 50); // Limiting to the first 50 items
 
   return (
     <div className="content">
       <div className="resultCounter fade">
-        <div>Results: {itemList.length}</div>
-        <div>{itemList.length > 50 && <span>(Only displaying 50)</span>}</div>
+        <div>
+          Results: <span className="results"> {itemList.length}</span>
+        </div>
+        <div>
+          {itemList.length > 50 && (
+            <span>(50+ results, please narrow search terms!)</span>
+          )}
+        </div>
       </div>
       {limitedItemList.map((item) => (
         <div className="ItemCard" key={item.itemASIN}>
