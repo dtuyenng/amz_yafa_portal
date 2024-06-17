@@ -963,6 +963,13 @@ const itemList = [
     itemNumber: "CK73220",
   },
   {
+    itemASIN: "B0D6SV8LJJ",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Green) - 14 KT Medium Nib - A Masterpiece of Color Mixing and Vintage Elegance - Luxury Gift Box Included",
+    itemNumber: "CK73227",
+  },
+
+  {
     itemASIN: "B0C4RLPGMX",
     itemName: "CONKLIN Herringbone Signature Fountain Pen Red - F",
     itemNumber: "CK74132",
@@ -2690,11 +2697,36 @@ const itemList = [
     itemNumber: "CK72198",
   },
   {
-    itemASIN: "B0CKV1L6VQ",
+    itemASIN: "B0D6SLMGGW",
     itemName:
       "CONKLIN 1898 Fountain Pen (Misto Green) - Extra Fine Nib - A Masterpiece of Color Mixing and Vintage Elegance - Luxury Gift Box Included",
     itemNumber: "CK73221",
   },
+  {
+    itemASIN: "B0CKV1L6VQ",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Green) - Omniflex Fine Nib - A Masterpiece of Color Mixing and Vintage Elegance - Luxury Gift Box Included",
+    itemNumber: "CK73226",
+  },
+  {
+    itemASIN: "B0D6SGWYJ8",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Green) - Stub Fine Nib - A Masterpiece of Color Mixing and Vintage Elegance - Luxury Gift Box Included",
+    itemNumber: "CK73225",
+  },
+  {
+    itemASIN: "B0D6SZ6Q2J",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Green) - Broad Fine Nib - A Masterpiece of Color Mixing and Vintage Elegance - Luxury Gift Box Included",
+    itemNumber: "CK73224",
+  },
+  {
+    itemASIN: "B0D6SHLB78",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Green) - Medium Fine Nib - A Masterpiece of Color Mixing and Vintage Elegance - Luxury Gift Box Included",
+    itemNumber: "CK73223",
+  },
+
   {
     itemASIN: "B008FJXFV4",
     itemName: "CONKLIN Endura Fountain Pen Black/White Fine Nib (CK71192-F)",
