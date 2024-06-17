@@ -4177,6 +4177,43 @@ const itemList = [
     itemNumber: "CK73209",
   },
   {
+    itemASIN: "B0D6SMNZYQ",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Purple) - Omniflex Nib - Exquisite Luxury Pen for Men & Women – Perfect for Office, Business, School, Gifts, Journaling, Autographs",
+    itemNumber: "CK73296",
+  },
+  {
+    itemASIN: "B0D6SV7ZD8",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Purple) - Broad Nib - Exquisite Luxury Pen for Men & Women – Perfect for Office, Business, School, Gifts, Journaling, Autographs",
+    itemNumber: "CK73294",
+  },
+  {
+    itemASIN: "B0D6SX2MP7",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Purple) - Stub Nib - Exquisite Luxury Pen for Men & Women – Perfect for Office, Business, School, Gifts, Journaling, Autographs",
+    itemNumber: "CK73295",
+  },
+  {
+    itemASIN: "B0D6SM3Q6W",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Purple) - Medium Nib - Exquisite Luxury Pen for Men & Women – Perfect for Office, Business, School, Gifts, Journaling, Autographs",
+    itemNumber: "CK73293",
+  },
+  {
+    itemASIN: "B0D6SSN6XR",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Purple) - Fine Nib - Exquisite Luxury Pen for Men & Women – Perfect for Office, Business, School, Gifts, Journaling, Autographs",
+    itemNumber: "CK73292",
+  },
+  {
+    itemASIN: "B0D6SHN22Y",
+    itemName:
+      "CONKLIN 1898 Fountain Pen (Misto Purple) - Extra Fine Nib - Exquisite Luxury Pen for Men & Women – Perfect for Office, Business, School, Gifts, Journaling, Autographs",
+    itemNumber: "CK73291",
+  },
+
+  {
     itemASIN: "B0CHKW74XC",
     itemName:
       "CONKLIN Ink Refill Cartridges (Black) for Fountain Pen - 12 Pack",
