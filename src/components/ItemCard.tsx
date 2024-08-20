@@ -19,11 +19,11 @@ function ItemCard({ itemList }: ItemList) {
       </>
     );
   }
-  if (itemList.length > 50) {
-    console.log("more than 50");
+  if (itemList.length > 30) {
+    console.log("more than 30");
   }
 
-  const limitedItemList = itemList.slice(0, 50); // Limiting to the first 50 items
+  const limitedItemList = itemList.slice(0, 30); // Limiting to the first 50 items
 
   return (
     <div className="content">
@@ -34,7 +34,7 @@ function ItemCard({ itemList }: ItemList) {
         <div>
           {itemList.length > 50 && (
             <span className="blink">
-              (50+ results, please narrow search terms!)
+              (30+ results, please narrow search terms!)
             </span>
           )}
         </div>

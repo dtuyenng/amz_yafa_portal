@@ -74,9 +74,13 @@ function App() {
             src="https://cdn11.bigcommerce.com/s-nyvkica9hs/images/stencil/original/yafabrands_new_logo_home_1626906690__49967.original.png"
             alt=""
           />
-          <div className="title">Amazon Product Portal (A.P.P)</div>
-          <div className="author">Author: Andre Nguyen</div>
-          <div className="updated">Updated: 08-20-24</div>
+          <div className="title_wrapper">
+            <div className="title">
+              <h1>Amazon Product Portal (A.P.P)</h1>
+            </div>
+            <div className="author">Author: Andre Nguyen</div>
+            <div className="updated">Updated: 08-20-24</div>
+          </div>
         </div>
 
         <SearchBar
