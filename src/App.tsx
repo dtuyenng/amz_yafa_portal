@@ -71,7 +71,7 @@ function App() {
           />
           <div className="title">Amazon Product Portal (A.P.P)</div>
           <div className="author">Author: Andre Nguyen</div>
-          <div className="updated">Updated: 06-17-24</div>
+          <div className="updated">Updated: 08-20-24</div>
         </div>
 
         <SearchBar

@@ -38,6 +38,8 @@ body {
   font-weight: bold;
   color: rgb(171, 1, 1);
   font-family: Open Sans, sans-serif;
+  margin-left: 20px;
+  width: 400px;
 
   display: block;
 }
@@ -64,6 +66,7 @@ body {
   height: 1.5rem;
   font-size: 0.8rem;
   border-radius: 5px;
+  padding-left: 10px;
 }
 
 .buttonWrapper {
@@ -218,4 +221,9 @@ body {
 .fade {
   opacity: 1;
   visibility: visible;
+}
+
+.author {
+  width: 300px;
+  margin-right: 20px;
 }
