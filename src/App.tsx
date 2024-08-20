@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
 // import itemList from "./itemList";
-import jsonData from "../src/assets/items.json";
+import jsonData from "../src/assets/items08202024.json";
 
 import "./App.css";
 
@@ -26,26 +26,54 @@ function App() {
 
   function handleClick() {
     if (curSearchInput === "") return;
+
     const searchTerms = curSearchInput
       .toLowerCase()
       .split(" ")
       .filter((term) => term.trim() !== "");
 
-    // const filteredList = itemList.filter((item) => {
-    const filteredList = jsonData.filter((item) => {
-      const itemAttributes = [
-        item.itemNumber.toLowerCase(),
-        item.itemName.toLowerCase(),
-        item.itemASIN.toLowerCase(),
-      ];
+    const filteredList = jsonData
+      .map((item) => ({
+        ...item,
+        itemNumber: item.itemNumber.toString(), // Ensure itemNumber is a string
+      }))
+      .filter((item) => {
+        const itemAttributes = [
+          item.itemNumber.toLowerCase(), // Now it's safe to use toLowerCase
+          item.itemName.toLowerCase(),
+          item.itemASIN.toLowerCase(),
+        ];
 
-      return searchTerms.every((searchTerm) =>
-        itemAttributes.some((attribute) => attribute.includes(searchTerm))
-      );
-    });
+        return searchTerms.every((searchTerm) =>
+          itemAttributes.some((attribute) => attribute.includes(searchTerm))
+        );
+      });
 
-    setCurItemList(filteredList);
+    setCurItemList(filteredList); // Set the filtered list
   }
+
+  // function handleClick() {
+  //   if (curSearchInput === "") return;
+  //   const searchTerms = curSearchInput
+  //     .toLowerCase()
+  //     .split(" ")
+  //     .filter((term) => term.trim() !== "");
+
+  //   // const filteredList = itemList.filter((item) => {
+  //   const filteredList = jsonData.filter((item) => {
+  //     const itemAttributes = [
+  //       item.itemNumber.toString().toLowerCase(),
+  //       item.itemName.toLowerCase(),
+  //       item.itemASIN.toLowerCase(),
+  //     ];
+
+  //     return searchTerms.every((searchTerm) =>
+  //       itemAttributes.some((attribute) => attribute.includes(searchTerm))
+  //     );
+  //   });
+
+  //   setCurItemList(filteredList);
+  // }
 
   function handleClear() {
     setSearchInput("");
