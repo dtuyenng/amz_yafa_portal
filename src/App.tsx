@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
-import itemList from "./itemList";
+// import itemList from "./itemList";
+import jsonData from "../src/assets/items.json";
 
 import "./App.css";
 
@@ -12,7 +13,10 @@ interface Item {
 }
 
 function App() {
+  // const [curItemList, setCurItemList] = useState<Item[]>([]);
+
   const [curItemList, setCurItemList] = useState<Item[]>([]);
+
   const [curSearchInput, setSearchInput] = useState("");
 
   function handleChange(event: any) {
@@ -27,7 +31,8 @@ function App() {
       .split(" ")
       .filter((term) => term.trim() !== "");
 
-    const filteredList = itemList.filter((item) => {
+    // const filteredList = itemList.filter((item) => {
+    const filteredList = jsonData.filter((item) => {
       const itemAttributes = [
         item.itemNumber.toLowerCase(),
         item.itemName.toLowerCase(),
