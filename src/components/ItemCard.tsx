@@ -42,12 +42,21 @@ function ItemCard({ itemList }: ItemList) {
           <div className="gallery">
             <img
               className="mainPicture"
-              src="src/assets/image_placeholder.png"
+              src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?w=1380&t=st=1724179166~exp=1724179766~hmac=8591241a7d5240a533b5dd92b35b82f197ae4eb3a8aa61a8d97eca6f45ea3637"
               alt=""
             />
-            <img src="src/assets/image_placeholder.png" alt="" />
-            <img src="src/assets/image_placeholder.png" alt="" />
-            <img src="src/assets/image_placeholder.png" alt="" />
+            <img
+              src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?w=1380&t=st=1724179166~exp=1724179766~hmac=8591241a7d5240a533b5dd92b35b82f197ae4eb3a8aa61a8d97eca6f45ea3637"
+              alt=""
+            />
+            <img
+              src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?w=1380&t=st=1724179166~exp=1724179766~hmac=8591241a7d5240a533b5dd92b35b82f197ae4eb3a8aa61a8d97eca6f45ea3637"
+              alt=""
+            />
+            <img
+              src="https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg?w=1380&t=st=1724179166~exp=1724179766~hmac=8591241a7d5240a533b5dd92b35b82f197ae4eb3a8aa61a8d97eca6f45ea3637"
+              alt=""
+            />
           </div>
           <div className="itemInfo">
             <div className="itemName">{item.itemName}</div>
