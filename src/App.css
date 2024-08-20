@@ -227,3 +227,13 @@ body {
   width: 300px;
   margin-right: 20px;
 }
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

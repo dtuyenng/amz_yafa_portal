@@ -33,7 +33,9 @@ function ItemCard({ itemList }: ItemList) {
         </div>
         <div>
           {itemList.length > 50 && (
-            <span>(50+ results, please narrow search terms!)</span>
+            <span className="blink">
+              (50+ results, please narrow search terms!)
+            </span>
           )}
         </div>
       </div>
