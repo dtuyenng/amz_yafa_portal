@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
 // import itemList from "./itemList";
-import jsonData from "../src/assets/items.json";
+import jsonData from "../src/assets/items08202024.json";
 
 import "./App.css";
 
@@ -77,6 +77,7 @@ function App() {
   function handleClear() {
     setSearchInput("");
     setCurItemList([]);
+    console.log("Cleared", curSearchInput, curItemList);
   }
 
   useEffect(() => {
@@ -105,7 +106,7 @@ function App() {
             <div className="title">
               <h1>Amazon Product Portal (A.P.P)</h1>
             </div>
-            <div className="author">Author: Andre Nguyen</div>
+            <div className="author">by: Andre Tuyen Nguyen</div>
             <div className="updated">Updated: 08-20-24</div>
           </div>
         </div>

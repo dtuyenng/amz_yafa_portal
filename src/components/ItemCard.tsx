@@ -39,8 +39,13 @@ function ItemCard({ itemList }: ItemList) {
           )}
         </div>
       </div>
-      {limitedItemList.map((item) => (
-        <div className="ItemCard" key={item.itemASIN}>
+      {limitedItemList.map((item, index) => (
+        <div
+          className="ItemCard"
+          // in case duplicate ASIN's are present in the data
+          key={item.itemASIN + Math.floor(Math.random() * 10000)}
+        >
+          <div className="item_index">{index + 1}.</div>
           <div className="gallery">
             <img
               className="mainPicture"
