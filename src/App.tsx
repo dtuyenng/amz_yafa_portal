@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import SearchBar from "./components/SearchBar";
 import ItemCard from "./components/ItemCard";
 // import itemList from "./itemList";
-import jsonData from "../src/assets/items08202024.json";
+import jsonData from "../src/assets/items.json";
 
 import "./App.css";
 
@@ -59,7 +59,6 @@ function App() {
   //     .split(" ")
   //     .filter((term) => term.trim() !== "");
 
-  //   // const filteredList = itemList.filter((item) => {
   //   const filteredList = jsonData.filter((item) => {
   //     const itemAttributes = [
   //       item.itemNumber.toString().toLowerCase(),
