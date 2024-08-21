@@ -52,7 +52,7 @@
   {
     "itemASIN": "B001N7YSQ6",
     "itemName": "Yafa Laser Pen, Black (20460)",
-    "itemNumber": "20460"
+    "itemNumber": 20460
   },
   {
     "itemASIN": "B001ONXKN6",
@@ -1152,22 +1152,22 @@
   {
     "itemASIN": "B002IKK6N6",
     "itemName": "Yafa Poquito Black Pen and Pencil Set, 0.5mm (10145)",
-    "itemNumber": "10145"
+    "itemNumber": 10145
   },
   {
     "itemASIN": "B002IKK6NG",
     "itemName": "Yafa Poquito Silver Pen and Pencil Set, 0.5mm (10146)",
-    "itemNumber": "10146"
+    "itemNumber": 10146
   },
   {
     "itemASIN": "B002IKK6NQ",
     "itemName": "Yafa Poquito Violet Pen and Pencil Set, 0.5mm (10147)",
-    "itemNumber": "10147"
+    "itemNumber": 10147
   },
   {
     "itemASIN": "B002IKK6O0",
     "itemName": "Yafa Poquito Pink Pen and Pencil Set, 0.5mm (10148)",
-    "itemNumber": "10148"
+    "itemNumber": 10148
   },
   {
     "itemASIN": "B002IKK6OA",
@@ -1606,18 +1606,8 @@
   },
   {
     "itemASIN": "B003DXB654",
-    "itemName": "Conklin Herringbone Fountain Pen, Golden Yellow (CK71313)",
-    "itemNumber": "CK71313"
-  },
-  {
-    "itemASIN": "B003DXB654",
     "itemName": "CONKLIN Duragraph Fountain Pen (Cracked Ice) - Stub Nib - A Luxury Pen for Journaling, Autographs, and Memorable Gifts on Any Occasion",
     "itemNumber": "CK71313"
-  },
-  {
-    "itemASIN": "B003DXB65E",
-    "itemName": "Conklin Duragraph Fountain Pen, Medium Nib, Cracked Ice (CK71312)",
-    "itemNumber": "CK71312"
   },
   {
     "itemASIN": "B003DXB65E",
@@ -1887,7 +1877,7 @@
   {
     "itemASIN": "B003HPZTRE",
     "itemName": "Yafa Mini-Pencil Poquito, Fine Point, 0.5 mm, Black",
-    "itemNumber": "10155"
+    "itemNumber": 10155
   },
   {
     "itemASIN": "B003I1UZ8U",
@@ -1902,107 +1892,107 @@
   {
     "itemASIN": "B003KGBBBI",
     "itemName": "Yafa Dato Ballpoint Pen, Black/Palisander (59254)",
-    "itemNumber": "59254"
+    "itemNumber": 59254
   },
   {
     "itemASIN": "B003KGBBC2",
     "itemName": "Yafa Dato Ballpoint Pen, Ivory/Maple (59253)",
-    "itemNumber": "59253"
+    "itemNumber": 59253
   },
   {
     "itemASIN": "B003KGBBCC",
     "itemName": "Yafa Largo Ballpoint Pen and Pencil Set, Silver (10208)",
-    "itemNumber": "10208"
+    "itemNumber": 10208
   },
   {
     "itemASIN": "B003KGBBCW",
     "itemName": "Yafa Largo Ballpoint Pen and Pencil Set, Gunmetal (10207)",
-    "itemNumber": "10207"
+    "itemNumber": 10207
   },
   {
     "itemASIN": "B003KGBBDG",
     "itemName": "Yafa Scenario Fountain and Ballpoint Pen Set, Green (10069)",
-    "itemNumber": "10069"
+    "itemNumber": 10069
   },
   {
     "itemASIN": "B003KGBBEA",
     "itemName": "Yafa Scenario Fountain and Ballpoint Pen Set, Blue (10068)",
-    "itemNumber": "10068"
+    "itemNumber": 10068
   },
   {
     "itemASIN": "B003KGBBEU",
     "itemName": "Yafa Quin-Tek 5-Function Pen, Black (73161)",
-    "itemNumber": "73161"
+    "itemNumber": 73161
   },
   {
     "itemASIN": "B003KGBBF4",
     "itemName": "Yafa Quin-Tek 5-Function Pen, Chrome (73160)",
-    "itemNumber": "73160"
+    "itemNumber": 73160
   },
   {
     "itemASIN": "B003KGBBFE",
     "itemName": "Yafa Quad-Point 4 Function Pen, Yellow Grip (15154)",
-    "itemNumber": "15154"
+    "itemNumber": 15154
   },
   {
     "itemASIN": "B003KGBBFY",
     "itemName": "Yafa Quad-Point 4 Function Pen, Red Grip (15153)",
-    "itemNumber": "15153"
+    "itemNumber": 15153
   },
   {
     "itemASIN": "B003KGBBGI",
     "itemName": "Yafa Quad-Point 4 Function Pen, Orange Grip (15152)",
-    "itemNumber": "15152"
+    "itemNumber": 15152
   },
   {
     "itemASIN": "B003KGBBH2",
     "itemName": "Yafa Quad-Point 4 Function Pen, Green Grip (15151)",
-    "itemNumber": "15151"
+    "itemNumber": 15151
   },
   {
     "itemASIN": "B003KGBBHC",
     "itemName": "Yafa All Purpose Magnet Pen, Red (12343)",
-    "itemNumber": "12343"
+    "itemNumber": 12343
   },
   {
     "itemASIN": "B003KGBBHW",
     "itemName": "Yafa All Purpose Magnet Pen, Blue (12342)",
-    "itemNumber": "12342"
+    "itemNumber": 12342
   },
   {
     "itemASIN": "B003KGBBIG",
     "itemName": "Yafa All Purpose Magnet Pen, Silver (12341)",
-    "itemNumber": "12341"
+    "itemNumber": 12341
   },
   {
     "itemASIN": "B003KGBBIQ",
     "itemName": "Yafa Pen-Wear Magnetic Ballpoint Pen, Purple (10338)",
-    "itemNumber": "10338"
+    "itemNumber": 10338
   },
   {
     "itemASIN": "B003KGBBJA",
     "itemName": "Yafa Pen-Wear Magnetic Ballpoint Pen, Silver (10337)",
-    "itemNumber": "10337"
+    "itemNumber": 10337
   },
   {
     "itemASIN": "B003KGBBJU",
     "itemName": "Yafa Pen-Wear Magnetic Ballpoint Pen, Pink (10336)",
-    "itemNumber": "10336"
+    "itemNumber": 10336
   },
   {
     "itemASIN": "B003KGBBKE",
     "itemName": "Yafa Pen-Wear Magnetic Ballpoint Pen, Black (10330)",
-    "itemNumber": "10330"
+    "itemNumber": 10330
   },
   {
     "itemASIN": "B003KGBBKO",
     "itemName": "Yafa Pen-Wear Magnetic Ballpoint Pen, Blue (10331)",
-    "itemNumber": "10331"
+    "itemNumber": 10331
   },
   {
     "itemASIN": "B003KGBBKY",
     "itemName": "Yafa Schmidt ORIGINAL Capless System Rollerball, Titanium (81293)",
-    "itemNumber": "81293"
+    "itemNumber": 81293
   },
   {
     "itemASIN": "B003S1KVZW",
@@ -2012,22 +2002,22 @@
   {
     "itemASIN": "B003XF2LU6",
     "itemName": "YAFA 10 Color Pen, Orange (51214)",
-    "itemNumber": "51214"
+    "itemNumber": 51214
   },
   {
     "itemASIN": "B003XF2LUG",
     "itemName": "YAFA 10 Color Pen, Yellow (51213)",
-    "itemNumber": "51213"
+    "itemNumber": 51213
   },
   {
     "itemASIN": "B003XF2LUQ",
     "itemName": "YAFA 10 Color Pen, Blue (51211)",
-    "itemNumber": "51211"
+    "itemNumber": 51211
   },
   {
     "itemASIN": "B003XF2LYC",
     "itemName": "YAFA 10 Color Pen, Pink (51212)",
-    "itemNumber": "51212"
+    "itemNumber": 51212
   },
   {
     "itemASIN": "B003YEHDLS",
@@ -2037,57 +2027,57 @@
   {
     "itemASIN": "B003Z9KYOA",
     "itemName": "YAFA World Map Ballpen, White (30013)",
-    "itemNumber": "30013"
+    "itemNumber": 30013
   },
   {
     "itemASIN": "B003Z9KYOK",
     "itemName": "YAFA Panache Ballpen, Light Blue (15912)",
-    "itemNumber": "15912"
+    "itemNumber": 15912
   },
   {
     "itemASIN": "B003Z9KYOU",
     "itemName": "YAFA World Map Ballpen, Black (30011)",
-    "itemNumber": "30011"
+    "itemNumber": 30011
   },
   {
     "itemASIN": "B003Z9KYP4",
     "itemName": "YAFA Panache Ballpen, Pink (15913)",
-    "itemNumber": "15913"
+    "itemNumber": 15913
   },
   {
     "itemASIN": "B003Z9KYPO",
     "itemName": "YAFA World Map Ballpen, Blue (30012)",
-    "itemNumber": "30012"
+    "itemNumber": 30012
   },
   {
     "itemASIN": "B003Z9KYPY",
     "itemName": "YAFA Panache Ballpen, Shinny Red (15897)",
-    "itemNumber": "15897"
+    "itemNumber": 15897
   },
   {
     "itemASIN": "B003Z9KYQ8",
     "itemName": "YAFA Panache Ballpen, Silver (15857)",
-    "itemNumber": "15857"
+    "itemNumber": 15857
   },
   {
     "itemASIN": "B003Z9KYQI",
     "itemName": "YAFA Panache Ballpen, Black (15914)",
-    "itemNumber": "15914"
+    "itemNumber": 15914
   },
   {
     "itemASIN": "B003Z9KYQS",
     "itemName": "YAFA Panache Ballpen, Light Green (15911)",
-    "itemNumber": "15911"
+    "itemNumber": 15911
   },
   {
     "itemASIN": "B003Z9KYR2",
     "itemName": "YAFA Panache Ballpen, Gold (15898)",
-    "itemNumber": "15898"
+    "itemNumber": 15898
   },
   {
     "itemASIN": "B003Z9KYSG",
     "itemName": "YAFA Panache Ballpen, Orange (15910)",
-    "itemNumber": "15910"
+    "itemNumber": 15910
   },
   {
     "itemASIN": "B003ZCT5LK",
@@ -2127,7 +2117,7 @@
   {
     "itemASIN": "B003ZCUMB2",
     "itemName": "YAFA Panache Ballpen, Yellow (15899)",
-    "itemNumber": "15899"
+    "itemNumber": 15899
   },
   {
     "itemASIN": "B003ZCYCGI",
@@ -2142,7 +2132,7 @@
   {
     "itemASIN": "B004323FTE",
     "itemName": "Aldo Domani Sorrento Fountain pen and Ballpoint pen set, Black (15190)",
-    "itemNumber": "15190"
+    "itemNumber": 15190
   },
   {
     "itemASIN": "B004323FV2",
@@ -2157,12 +2147,12 @@
   {
     "itemASIN": "B004323FZI",
     "itemName": "Aldo Domani Sorrento Fountain pen and Ballpoint pen set, Red (15192)",
-    "itemNumber": "15192"
+    "itemNumber": 15192
   },
   {
     "itemASIN": "B004323FZS",
     "itemName": "Aldo Domani Sorrento Fountain pen and Ballpoint pen set, Blue (15191)",
-    "itemNumber": "15191"
+    "itemNumber": 15191
   },
   {
     "itemASIN": "B004323G3E",
@@ -2267,12 +2257,12 @@
   {
     "itemASIN": "B004EDULYE",
     "itemName": "Monteverde Super Mini Refill For Monteverde Invincia X3, Blue (72832)",
-    "itemNumber": "72832"
+    "itemNumber": 72832
   },
   {
     "itemASIN": "B004EDUM3Y",
     "itemName": "Monteverde Ink Converter, Green (31073)",
-    "itemNumber": "31073"
+    "itemNumber": 31073
   },
   {
     "itemASIN": "B004EDUM5W",
@@ -2287,7 +2277,7 @@
   {
     "itemASIN": "B004EDUMBQ",
     "itemName": "Monteverde Mini Ink Converter, White (31072)",
-    "itemNumber": "31072"
+    "itemNumber": 31072
   },
   {
     "itemASIN": "B004EDUMEI",
@@ -2332,7 +2322,7 @@
   {
     "itemASIN": "B004EDYT06",
     "itemName": "Monteverde Ink Converter, Clear (31076)",
-    "itemNumber": "31076"
+    "itemNumber": 31076
   },
   {
     "itemASIN": "B004EDYT0G",
@@ -2367,7 +2357,7 @@
   {
     "itemASIN": "B004EE0E5E",
     "itemName": "Monteverde Tthreaded Ink Converter, Clear (31075)",
-    "itemNumber": "31075"
+    "itemNumber": 31075
   },
   {
     "itemASIN": "B004EE0E9A",
@@ -2382,7 +2372,7 @@
   {
     "itemASIN": "B004EE0ECC",
     "itemName": "Monteverde Super Mini Refill For Monteverde Invincia X3, Black (72831)",
-    "itemNumber": "72831"
+    "itemNumber": 72831
   },
   {
     "itemASIN": "B004EE0EDQ",
@@ -2912,7 +2902,7 @@
   {
     "itemASIN": "B005CN43TY",
     "itemName": "Yafa Mini-Ballpoint Poquito Pen, 1.0 mm, Medium Point, Silver Barrel, Black Ink",
-    "itemNumber": "10181"
+    "itemNumber": 10181
   },
   {
     "itemASIN": "B005CN43US",
@@ -2922,7 +2912,7 @@
   {
     "itemASIN": "B005CN4XA8",
     "itemName": "Yafa Ink Cartridge Fountain Pen, Medium Tip, Blue Barrel, Assorted Ink",
-    "itemNumber": "10027"
+    "itemNumber": 10027
   },
   {
     "itemASIN": "B005CN4XBC",
@@ -2932,37 +2922,37 @@
   {
     "itemASIN": "B005CN4XK8",
     "itemName": "Yafa Ink Cartridge Fountain Pen, Medium Tip, Black Barrel, Assorted Ink",
-    "itemNumber": "10026"
+    "itemNumber": 10026
   },
   {
     "itemASIN": "B005CN4XKI",
     "itemName": "Yafa Mini-Ballpoint Poquito Pen, 1.0 mm, Medium Point, Chocolate/Pink Barrel, Black Ink",
-    "itemNumber": "10190"
+    "itemNumber": 10190
   },
   {
     "itemASIN": "B005CN4XSA",
     "itemName": "Yafa Mini-Ballpoint Poquito Pen, 1.0 mm, Medium Point, Gunmetal Barrel, Black Ink",
-    "itemNumber": "10183"
+    "itemNumber": 10183
   },
   {
     "itemASIN": "B005CN4XT4",
     "itemName": "Yafa Quin-Tek 5-Function Pen, 1.0 mm, Medium Point, Black Barrel, Assorted Ink",
-    "itemNumber": "73155"
+    "itemNumber": 73155
   },
   {
     "itemASIN": "B005CN4XU8",
     "itemName": "Yafa Mini-Ballpoint Poquito Pen, 1.0 mm, Medium Point, Brown/Red Barrel, Black Ink",
-    "itemNumber": "10189"
+    "itemNumber": 10189
   },
   {
     "itemASIN": "B005CN4XW6",
     "itemName": "Aldo Domani Torino Ballpoint Pen With Leather Case, 1.0 mm, Medium Point, Red Barrel, Black Ink",
-    "itemNumber": "15197"
+    "itemNumber": 15197
   },
   {
     "itemASIN": "B005CN4XWG",
     "itemName": "Yafa Quadro 4-Function Pen, 1.0 mm, Medium Point, Carbon Fiber/Chrome Barrel, Assorted Inks",
-    "itemNumber": "73122"
+    "itemNumber": 73122
   },
   {
     "itemASIN": "B005CSOE2U",
@@ -4742,12 +4732,12 @@
   {
     "itemASIN": "B006HFW2E4",
     "itemName": "Yafa Quad Point 4 Function Pen - Orange (15157)",
-    "itemNumber": "15157"
+    "itemNumber": 15157
   },
   {
     "itemASIN": "B006HFW34I",
     "itemName": "Yafa Quad Point 4 Function Pen - Yellow (15159)",
-    "itemNumber": "15159"
+    "itemNumber": 15159
   },
   {
     "itemASIN": "B006Y0G9GE",
@@ -4972,12 +4962,12 @@
   {
     "itemASIN": "B007BD0HHU",
     "itemName": "YAFA Anti-Bacterial Pen White Color, 12 per Pack (56502)",
-    "itemNumber": "56502"
+    "itemNumber": 56502
   },
   {
     "itemASIN": "B007BD0HKC",
     "itemName": "YAFA Anti-Bacterial Pen Blue Color, 12 per Pack (56501)",
-    "itemNumber": "56501"
+    "itemNumber": 56501
   },
   {
     "itemASIN": "B007ENLMOO",
@@ -5012,7 +5002,7 @@
   {
     "itemASIN": "B007G51UVK",
     "itemName": "YAFA Recycled Bottle Pen Clear 12 Per Pack (57001)",
-    "itemNumber": "57001"
+    "itemNumber": 57001
   },
   {
     "itemASIN": "B007GB8MSI",
@@ -5507,12 +5497,12 @@
   {
     "itemASIN": "B0090J5TQC",
     "itemName": "DELTA MARKIARO 12 Piece Pen Case - Orange",
-    "itemNumber": "91137"
+    "itemNumber": 91137
   },
   {
     "itemASIN": "B0090J5U48",
     "itemName": "DELTA MARKIARO 12 Piece Pen Case - Black",
-    "itemNumber": "91136"
+    "itemNumber": 91136
   },
   {
     "itemASIN": "B009B722OK",
@@ -5547,57 +5537,57 @@
   {
     "itemASIN": "B009FXMOXO",
     "itemName": "Delta Marikiaro Pen Case for Three Pens (91148)",
-    "itemNumber": "91148"
+    "itemNumber": 91148
   },
   {
     "itemASIN": "B009FXMPQA",
     "itemName": "Delta Markiaro Large Billfold Card Wallet (91157)",
-    "itemNumber": "91157"
+    "itemNumber": 91157
   },
   {
     "itemASIN": "B009FXMPRO",
     "itemName": "Delta Markiaro Pen Case for Three Pens (91149)",
-    "itemNumber": "91149"
+    "itemNumber": 91149
   },
   {
     "itemASIN": "B009FXMPS8",
     "itemName": "Delta Markiaro Pen Case for Two Pens (91144)",
-    "itemNumber": "91144"
+    "itemNumber": 91144
   },
   {
     "itemASIN": "B009FXMPZG",
     "itemName": "Delta Markiaro Carrying Case, 40 Pens (91139)",
-    "itemNumber": "91139"
+    "itemNumber": 91139
   },
   {
     "itemASIN": "B009FXMQ3M",
     "itemName": "Delta Markiaro Large Billfold Card Wallet (91156)",
-    "itemNumber": "91156"
+    "itemNumber": 91156
   },
   {
     "itemASIN": "B009FXMQO6",
     "itemName": "Delta Markiaro Carry Case 40 Pens (91138)",
-    "itemNumber": "91138"
+    "itemNumber": 91138
   },
   {
     "itemASIN": "B009FXMQOG",
     "itemName": "Delta Markiaro Double Billfold Coin Wallet (91150)",
-    "itemNumber": "91150"
+    "itemNumber": 91150
   },
   {
     "itemASIN": "B009FXMQPK",
     "itemName": "Delta Markiaro Billfold Wallet (91165)",
-    "itemNumber": "91165"
+    "itemNumber": 91165
   },
   {
     "itemASIN": "B009FXMQQE",
     "itemName": "Delta Markiaro Pen Case for Two Pens (91145)",
-    "itemNumber": "91145"
+    "itemNumber": 91145
   },
   {
     "itemASIN": "B009FXMQUK",
     "itemName": "Delta Markiaro Billfold Wallet (91164)",
-    "itemNumber": "91164"
+    "itemNumber": 91164
   },
   {
     "itemASIN": "B009LJOB4C",
@@ -12512,7 +12502,7 @@
   {
     "itemASIN": "B01JJFIVZ2",
     "itemName": "MONTEVERDE 36 PC Zipper Pen Case; Black (1407)",
-    "itemNumber": "1407"
+    "itemNumber": 1407
   },
   {
     "itemASIN": "B01LXFT9ZG",
@@ -14997,12 +14987,12 @@
   {
     "itemASIN": "B07JJLG5R4",
     "itemName": "Schmidt Refill Fibre Fasermine 5020, Medium Point Pen Refill, Black (50201)",
-    "itemNumber": "50201"
+    "itemNumber": 50201
   },
   {
     "itemASIN": "B07JX25SJ7",
     "itemName": "SCHMIDT Refill Fibre Fasermine 5020, Medium Point Pen Refill, Blue (50202)",
-    "itemNumber": "50202"
+    "itemNumber": 50202
   },
   {
     "itemASIN": "B07K4BFPW3",
