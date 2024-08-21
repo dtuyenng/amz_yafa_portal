@@ -97,7 +97,7 @@ function App() {
     <div className="wrapper">
       <div className="header">
         <div>
-          <img className="logo" src="public/yafalogo.png" alt="" />
+          <img className="logo" src="yafalogo.png" alt="" />
           <div className="title_wrapper">
             <div className="title">
               <h1>Amazon Product Portal (A.P.P)</h1>

@@ -47,14 +47,10 @@ function ItemCard({ itemList }: ItemList) {
         >
           <div className="item_index">{index + 1}.</div>
           <div className="gallery">
-            <img
-              className="mainPicture"
-              src="public/image_placeholder.png"
-              alt=""
-            />
-            <img src="public/image_placeholder.png" alt="" />
-            <img src="public/image_placeholder.png" alt="" />
-            <img src="public/image_placeholder.png" alt="" />
+            <img className="mainPicture" src="image_placeholder.png" alt="" />
+            <img src="image_placeholder.png" alt="" />
+            <img src="image_placeholder.png" alt="" />
+            <img src="image_placeholder.png" alt="" />
           </div>
           <div className="itemInfo">
             <div className="itemName">{item.itemName}</div>
