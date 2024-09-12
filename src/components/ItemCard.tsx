@@ -20,10 +20,10 @@ function ItemCard({ itemList }: ItemList) {
     );
   }
   if (itemList.length > 30) {
-    console.log("more than 30");
+    console.log("more than 50");
   }
 
-  const limitedItemList = itemList.slice(0, 30); // Limiting to the first 50 items
+  const limitedItemList = itemList.slice(0, 50); // Limiting to the first x number of items
 
   return (
     <div className="content">
